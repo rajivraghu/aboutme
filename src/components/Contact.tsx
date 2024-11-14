@@ -10,22 +10,28 @@ export default function Contact() {
         <p className="text-gray-600 text-lg mb-8">
           I'm always open to new opportunities and collaborations. Feel free to reach out!
         </p>
-        <a href="mailto:ritesh.dubey.dev@gmail.com" className="text-2xl font-semibold text-gray-800 hover:text-gray-600 transition-colors mb-12 inline-block">
-          ritesh.dubey.dev@gmail.com
-        </a>
+        <p className="text-gray-600 text-lg mb-8">
+          Based in Bengaluru, India
+        </p>
+        <div className="space-y-4 mb-8">
+          <a href="tel:+919591523989" className="text-xl font-semibold text-gray-800 hover:text-gray-600 transition-colors block">
+            +91 959 152 3989
+          </a>
+          <a href="mailto:rajiv.vedavyas@gmail.com" className="text-xl font-semibold text-gray-800 hover:text-gray-600 transition-colors block">
+            rajiv.vedavyas@gmail.com
+          </a>
+        </div>
+      
         <div className="flex justify-center gap-4 flex-wrap">
-          <a href="#" className="social-link">
+          <a href="https://github.com/rajivraghu" className="social-link" target="_blank" >
             <Github size={20} />
             <span>GitHub</span>
           </a>
-          <a href="#" className="social-link">
+          <a href="https://www.linkedin.com/in/rajiv-raghunathan-31612827/" className="social-link" target="_blank">
             <Linkedin size={20} />
             <span>LinkedIn</span>
           </a>
-          <a href="#" className="social-link">
-            <Twitter size={20} />
-            <span>Twitter</span>
-          </a>
+      
         </div>
       </div>
     </section>

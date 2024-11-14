@@ -3,16 +3,10 @@ import { GraduationCap, Building2, Calendar } from 'lucide-react';
 export default function Education() {
   const education = [
     {
-      degree: "Bachelor's in Computer Application",
-      school: "Jayagovind Harigopal Agarwal Agarsen College",
-      period: "July 2019 - June 2022",
-      percentage: "86.47%"
-    },
-    {
-      degree: "Mathematics and Computer Science",
-      school: "Seventh Day Adventist High Secondary School",
-      period: "Graduated May 2018",
-      percentage: "75%"
+      degree: "BE Electronics and Communication Engineering",
+      school: "Visvesvaraya Technological University",
+      period: "June 2006 - June 2010",
+      location: "Bengaluru, Karnataka, India"
     }
   ];
 
@@ -40,7 +34,7 @@ export default function Education() {
                   <Calendar size={18} />
                   <span>{edu.period}</span>
                 </div>
-                <p className="font-semibold">Percentage: {edu.percentage}</p>
+                <p className="font-semibold">Location: {edu.location}</p>
               </div>
             </div>
           ))}

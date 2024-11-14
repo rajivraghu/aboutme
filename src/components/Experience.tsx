@@ -3,28 +3,29 @@ import { Building, Calendar } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      title: "Senior Product Developer",
-      company: "SurveySparrow Pvt Ltd",
-      period: "Dec 2023 - Present",
+      title: "Lead Software Architect",
+      company: "Opentext",
+      period: "May 2012 - Present",
       achievements: [
-        "Collaborated with the AI Team to Develop AI Tools",
-        "Developed an Internal RFP-AI Tool, automating customer RFP processing and reducing time from days to minutes",
-        "Created an Internal AI chatbot, reducing query resolution time to seconds",
-        "Developed Email Validation Service, reducing disposable and invalid sign-ups",
-        "Demonstrated rapid tech adaptability, elevating team capabilities"
+        "Spearheading innovative solutions across design, development, and deployment",
+        "Building B2B EDI integration solutions with customer-centric enterprise integrations",
+        "Leading cloud-based microservices applications development with focus on security & scalability",
+        "Mentoring teams and fostering a culture of continuous improvement"
       ],
-      tags: ["AI Tools", "Python", "Node.js", "React", "OpenAI"]
+      tags: ["Microservices", "Java/J2EE", "Spring", "Angular", "Google Cloud", "Generative AI"]
     },
     {
-      title: "Product Developer",
-      company: "SurveySparrow Pvt Ltd",
-      period: "July 2022 - Dec 2023",
+      title: "Software Engineer",
+      company: "mNXT Consulting & Solutions Pvt. Ltd.",
+      period: "August 2010 - May 2012",
       achievements: [
-        "Enhanced system performance by 40% through expert troubleshooting",
-        "Reduced project onboarding time by 10% through quick integration"
+        "Developed Web and Mobile applications for Restaurant management",
+        "Built solutions for Waste Management and Healthcare sectors",
+        "Implemented Field Automation using Java, Android, iOS, and Spring"
       ],
-      tags: ["React", "Node.js", "TypeScript", "MongoDB"]
+      tags: ["Java", "Android", "iOS", "Spring"]
     }
+    
   ];
 
   return (

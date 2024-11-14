@@ -4,33 +4,33 @@ export default function Skills() {
   const skillSections = [
     {
       icon: <Code2 size={24} />,
-      title: "Programming Languages",
-      skills: ["JavaScript", "TypeScript", "Python"]
+      title: "Core Technologies",
+      skills: ["Java", "J2EE", "Spring Framework", "JavaScript", "Angular"]
     },
     {
       icon: <Layout size={24} />,
-      title: "Frontend",
-      skills: ["React", "Redux", "Next.js", "HTML/CSS"]
+      title: "Architecture & Design",
+      skills: ["Microservices", "Design Patterns", "RESTful Services", "Enterprise Integration"]
     },
     {
       icon: <Server size={24} />,
-      title: "Backend",
-      skills: ["Node.js", "Hapi.js", "FastAPI"]
+      title: "Cloud & DevOps",
+      skills: ["Google Cloud", "Docker", "Kubernetes", "CI/CD"]
     },
     {
       icon: <Database size={24} />,
-      title: "Database",
-      skills: ["PostgreSQL", "Firebase", "Pinecone"]
+      title: "Data & Messaging",
+      skills: ["SQL", "NoSQL", "Kafka"]
     },
     {
       icon: <Brain size={24} />,
-      title: "AI & ML",
-      skills: ["OpenAI Integration", "Vector Databases", "AI Tools Development"]
+      title: "Emerging Tech",
+      skills: ["Generative AI", "OpenAI", "B2B SaaS"]
     },
     {
       icon: <Wrench size={24} />,
-      title: "Other Skills",
-      skills: ["Git", "Agile", "Docker"]
+      title: "Tools & Methods",
+      skills: ["Git", "Agile/Scrum", "Technical Leadership"]
     }
   ];
 
